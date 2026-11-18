@@ -8,6 +8,8 @@
    bash run_all.sh
    ```
 
-On first run, the command downloads and verifies the training inputs from GitHub Releases. Find the paper tables and figures in `runs/run.*/paper_results/`.
+Place `GSE176078_training_inputs.tar.gz` and `additional_inputs.tar.gz` next to `run_all.sh` if you have the local package. When the data are available on GitHub, the command can also download and verify them automatically.
+
+Find the paper tables and figures in `runs/run.*/paper_results/`.
 
 To check setup with shorter runs, use `bash run_all.sh --smoke`.
