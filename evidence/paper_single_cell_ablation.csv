@@ -1,0 +1,15 @@
+protocol,arm,comparator,program,mean,CI95_low,CI95_high,positive_patients
+standard,local,,,0.302,,,
+standard,fixed_fusion,,,0.397,,,
+standard,gated_fusion,,,0.396,,,
+standard,full,,,0.401,,,
+standard,gated_fusion,fixed_fusion,,-0.0014,-0.0088,0.0052,
+standard,full,gated_fusion,,0.0056,0.0018,0.0097,
+strict,full,,,0.386,,,
+strict,local,,,0.267,,,
+strict,pca,,,0.438,,,
+strict,full,local,,0.119,0.094,0.145,23
+strict,full,,0,0.388,,,
+strict,pca,,0,0.376,,,
+strict,full,,1,0.384,,,
+strict,pca,,1,0.501,,,

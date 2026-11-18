@@ -1,0 +1,30 @@
+{
+  "selected": {
+    "run": 8,
+    "seed": 49,
+    "best_epoch": 181,
+    "validation_accuracy": 0.8611521124839783,
+    "test_accuracy": 0.8862629532814026
+  },
+  "runs": [
+    {
+      "run": 8,
+      "seed": 49,
+      "best_epoch": 181,
+      "validation_accuracy": 0.8611521124839783,
+      "test_accuracy": 0.8862629532814026
+    }
+  ],
+  "selection": "preselected run index 7; validation checkpoint",
+  "nodes": 2708,
+  "dimensions": 256,
+  "classes": 7,
+  "split_sizes": [
+    1354,
+    677,
+    677
+  ],
+  "tsne_seed": 42,
+  "perplexity": 30,
+  "tsne_iterations": 1000
+}

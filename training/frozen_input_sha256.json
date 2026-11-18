@@ -1,0 +1,12 @@
+{
+  "bio_runs/gse176078_full_20261017/data/fold_01/biomed/gse176078_brca.npz": "2cddcf38607cb0b6f1a2eae0948c26c0748c1f0de6646be46695cfe49ffb3556",
+  "bio_runs/gse176078_full_20261017/data/fold_02/biomed/gse176078_brca.npz": "e9d5086812c879eee37f25f0102ad5d17f2e99ba2ba5812a06a9ff1fedd8cd74",
+  "bio_runs/gse176078_full_20261017/data/fold_03/biomed/gse176078_brca.npz": "7fe4249fcd730ad8b3f031c54c6caf444420a888cef4f29b57f7803530275fa4",
+  "bio_runs/gse176078_full_20261017/data/fold_04/biomed/gse176078_brca.npz": "9b5ddf79e741cea2d3554f61ff701fccc7290d33644e9adacc2d2db4b55f37c4",
+  "bio_runs/gse176078_full_20261017/data/fold_05/biomed/gse176078_brca.npz": "0c7f4ab5fab319d6016056a77fa1f77dc01c09f8fd4fc278e65c90d1b9dd634a",
+  "bio_runs/gse176078_full_20261017/state/fold_01/biostate.npz": "c61d506a4eac94d281376e6de28d696a3a044f2fe1aa34b0e973df840f7c3911",
+  "bio_runs/gse176078_full_20261017/state/fold_02/biostate.npz": "2294bc2f5212593b737b713023d81d454926d3c07626f42ef62da4899c0ecf66",
+  "bio_runs/gse176078_full_20261017/state/fold_03/biostate.npz": "5c28eafd19f069978a36ae7aaa75bf48676dbb7f8e9e9729ba59f80f2a45affa",
+  "bio_runs/gse176078_full_20261017/state/fold_04/biostate.npz": "da0501dbaf76432984bb94b8152696ab3f425fa7f28fc83fe0daeb1d70520c15",
+  "bio_runs/gse176078_full_20261017/state/fold_05/biostate.npz": "6b944475e8bd2959110693cd1ad8d42cb22016ec5021e99cbdad7b690fe914a7"
+}

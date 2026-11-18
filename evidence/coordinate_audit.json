@@ -1,0 +1,14 @@
+{
+  "seed": 168023000,
+  "source_fold": 1,
+  "cells": 9840,
+  "patients": 6,
+  "visualization": "PCA of frozen final classifier-input vectors, fitted only on source training cells",
+  "explained_variance_ratio": [
+    0.18513166904449463,
+    0.15852929651737213
+  ],
+  "no_training": true,
+  "source_hash": "32dcf92b41ac63a3d300d23b62630135bd44889681a57bb520fe97eb11900af2",
+  "representation_hash": "d2fb9fb41c39c24ba5126bdd9ad973ec41f5f453f800f4adc7fc7eda4da418d3"
+}

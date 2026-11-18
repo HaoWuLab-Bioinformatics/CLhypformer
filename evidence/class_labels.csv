@@ -1,0 +1,10 @@
+cell_class,short_label,cells
+B-cells,B-cells,3206
+CAFs,CAFs,6573
+Cancer Epithelial,Cancer epi.,24489
+Endothelial,Endothelial,7605
+Myeloid,Myeloid,9675
+Normal Epithelial,Normal epi.,4355
+PVL,PVL,5423
+Plasmablasts,Plasmablasts,3524
+T-cells,T-cells,35214
