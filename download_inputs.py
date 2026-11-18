@@ -1,6 +1,5 @@
-"""Download and verify the input archives attached to the GitHub release."""
+"""Download and verify the two training inputs attached to the project release."""
 
-from concurrent.futures import ThreadPoolExecutor
 import hashlib
 import json
 from pathlib import Path
@@ -24,42 +23,32 @@ def checksum(path):
     return digest.hexdigest()
 
 
-def download_part(part, staging):
-    path = staging / part["name"]
-    for attempt in range(3):
-        try:
-            with urlopen(RELEASE + part["name"], timeout=90) as response, path.open("wb") as file:
-                for block in iter(lambda: response.read(1024 * 1024), b""):
-                    file.write(block)
-            if path.stat().st_size != part["bytes"] or checksum(path) != part["sha256"]:
-                raise ValueError(f"Incomplete or corrupt download: {part['name']}")
-            return path
-        except (OSError, ValueError):
-            if attempt == 2:
-                raise
-            sleep(2 ** (attempt + 1))
+def download(name, metadata, destination):
+    with TemporaryDirectory(prefix=".training-inputs-", dir=ROOT) as temporary:
+        staged = Path(temporary) / name
+        for attempt in range(3):
+            try:
+                with urlopen(RELEASE + name, timeout=90) as response, staged.open("wb") as file:
+                    for block in iter(lambda: response.read(1024 * 1024), b""):
+                        file.write(block)
+                if staged.stat().st_size != metadata["bytes"] or checksum(staged) != metadata["sha256"]:
+                    raise ValueError(f"Downloaded input failed verification: {name}")
+                staged.replace(destination)
+                return
+            except (OSError, ValueError):
+                if attempt == 2:
+                    raise
+                sleep(2 ** (attempt + 1))
 
 
 def main():
     manifest = json.loads((ROOT / "training_input_assets.json").read_text(encoding="utf-8"))
-    for name, entry in manifest.items():
+    for name, metadata in manifest.items():
         destination = ROOT / name
-        if destination.exists() and checksum(destination) == entry["sha256"]:
+        if (destination.exists() and destination.stat().st_size == metadata["bytes"]
+                and checksum(destination) == metadata["sha256"]):
             continue
-        with TemporaryDirectory(prefix=".training-inputs-", dir=ROOT) as temporary:
-            staging = Path(temporary)
-            with ThreadPoolExecutor(max_workers=4) as threads:
-                parts = list(threads.map(lambda part: download_part(part, staging), entry["parts"]))
-            joined = staging / name
-            with joined.open("wb") as output:
-                for path in parts:
-                    with path.open("rb") as source:
-                        for block in iter(lambda: source.read(1024 * 1024), b""):
-                            output.write(block)
-                    path.unlink()
-            if checksum(joined) != entry["sha256"]:
-                raise ValueError(f"Input checksum differs: {name}")
-            joined.replace(destination)
+        download(name, metadata, destination)
 
 
 if __name__ == "__main__":
