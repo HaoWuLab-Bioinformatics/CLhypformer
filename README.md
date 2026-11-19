@@ -1,5 +1,7 @@
 # CLhypformer Reproducibility
 
+![CLhypformer model architecture](paper_results/original_figures/figure1.png)
+
 1. Clone this repository and open a terminal in its directory.
 2. Set up the Linux CUDA and Python environments in [training/environment.md](training/environment.md).
 3. Run:
