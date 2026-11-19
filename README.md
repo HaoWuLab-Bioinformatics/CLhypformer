@@ -13,3 +13,5 @@ Place `GSE176078_training_inputs.tar.gz` and `additional_inputs.tar.gz` next to 
 Find the paper tables and figures in `runs/run.*/paper_results/`.
 
 To check setup with shorter runs, use `bash run_all.sh --smoke`.
+
+If you want to view the experimental results faster, please check paper_results/.
