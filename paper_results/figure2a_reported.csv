@@ -1,0 +1,49 @@
+method,dataset,accuracy_percent
+CLhypformer,Cora,90.65
+Hypformer,Cora,88.98
+Lighthgnn,Cora,80.34
+DHG-Bench,Cora,79.42
+Fully Hyperbolic Neural Networks,Cora,80.3
+GCN,Cora,81.3
+GAT,Cora,83.0
+MLP,Cora,51.97
+CLhypformer,Citeseer,77.96
+Hypformer,Citeseer,76.87
+Lighthgnn,Citeseer,69.66
+DHG-Bench,Citeseer,72.2
+Fully Hyperbolic Neural Networks,Citeseer,66.39
+GCN,Citeseer,71.6
+GAT,Citeseer,72.5
+MLP,Citeseer,70.08
+CLhypformer,Disease,90.16
+Hypformer,Disease,88.23
+Lighthgnn,Disease,78.16
+DHG-Bench,Disease,80.54
+Fully Hyperbolic Neural Networks,Disease,78.31
+GCN,Disease,69.7
+GAT,Disease,70.4
+MLP,Disease,75.38
+CLhypformer,Twitch_PTBR,69.9
+Hypformer,Twitch_PTBR,68.58
+Lighthgnn,Twitch_PTBR,63.77
+DHG-Bench,Twitch_PTBR,59.04
+Fully Hyperbolic Neural Networks,Twitch_PTBR,63.38
+GCN,Twitch_PTBR,66.5
+GAT,Twitch_PTBR,65.79
+MLP,Twitch_PTBR,63.35
+CLhypformer,Twitch_ES,75.49
+Hypformer,Twitch_ES,71.09
+Lighthgnn,Twitch_ES,61.42
+DHG-Bench,Twitch_ES,66.88
+Fully Hyperbolic Neural Networks,Twitch_ES,64.07
+GCN,Twitch_ES,70.64
+GAT,Twitch_ES,66.4
+MLP,Twitch_ES,66.98
+CLhypformer,Twitch_RU,77.95
+Hypformer,Twitch_RU,73.63
+Lighthgnn,Twitch_RU,59.94
+DHG-Bench,Twitch_RU,72.58
+Fully Hyperbolic Neural Networks,Twitch_RU,64.68
+GCN,Twitch_RU,74.74
+GAT,Twitch_RU,75.4
+MLP,Twitch_RU,71.71

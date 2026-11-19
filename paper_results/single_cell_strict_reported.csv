@@ -1,0 +1,9 @@
+protocol,arm,comparator,program,mean,CI95_low,CI95_high,positive_patients
+strict,full,,,0.386,,,
+strict,local,,,0.267,,,
+strict,pca,,,0.438,,,
+strict,full,local,,0.119,0.094,0.145,23.0
+strict,full,,0.0,0.388,,,
+strict,pca,,0.0,0.376,,,
+strict,full,,1.0,0.384,,,
+strict,pca,,1.0,0.501,,,

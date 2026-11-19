@@ -1,0 +1,51 @@
+method,dataset,fraction_removed,accuracy_percent
+CLhypformer,Cora,0.0,90.65
+CLhypformer,Citeseer,0.0,77.96
+Hypformer,Cora,0.0,88.98
+Hypformer,Citeseer,0.0,76.87
+Lighthgnn,Cora,0.0,80.34
+Lighthgnn,Citeseer,0.0,69.66
+DHG-Bench,Cora,0.0,79.42
+DHG-Bench,Citeseer,0.0,72.2
+Fully Hyperbolic Neural Networks,Cora,0.0,76.7
+Fully Hyperbolic Neural Networks,Citeseer,0.0,66.39
+CLhypformer,Cora,0.2,88.14
+CLhypformer,Citeseer,0.2,75.09
+Hypformer,Cora,0.2,86.22
+Hypformer,Citeseer,0.2,73.45
+Lighthgnn,Cora,0.2,76.03
+Lighthgnn,Citeseer,0.2,66.22
+DHG-Bench,Cora,0.2,73.29
+DHG-Bench,Citeseer,0.2,65.07
+Fully Hyperbolic Neural Networks,Cora,0.2,73.0
+Fully Hyperbolic Neural Networks,Citeseer,0.2,63.9
+CLhypformer,Cora,0.4,86.59
+CLhypformer,Citeseer,0.4,73.75
+Hypformer,Cora,0.4,83.97
+Hypformer,Citeseer,0.4,71.0
+Lighthgnn,Cora,0.4,73.52
+Lighthgnn,Citeseer,0.4,64.13
+DHG-Bench,Cora,0.4,63.41
+DHG-Bench,Citeseer,0.4,54.11
+Fully Hyperbolic Neural Networks,Cora,0.4,68.1
+Fully Hyperbolic Neural Networks,Citeseer,0.4,57.6
+CLhypformer,Cora,0.6,83.26
+CLhypformer,Citeseer,0.6,71.39
+Hypformer,Cora,0.6,80.89
+Hypformer,Citeseer,0.6,68.22
+Lighthgnn,Cora,0.6,67.07
+Lighthgnn,Citeseer,0.6,51.85
+DHG-Bench,Cora,0.6,49.66
+DHG-Bench,Citeseer,0.6,44.95
+Fully Hyperbolic Neural Networks,Cora,0.6,64.6
+Fully Hyperbolic Neural Networks,Citeseer,0.6,55.0
+CLhypformer,Cora,0.8,78.8
+CLhypformer,Citeseer,0.8,70.25
+Hypformer,Cora,0.8,77.42
+Hypformer,Citeseer,0.8,65.38
+Lighthgnn,Cora,0.8,55.59
+Lighthgnn,Citeseer,0.8,41.84
+DHG-Bench,Cora,0.8,34.71
+DHG-Bench,Citeseer,0.8,30.09
+Fully Hyperbolic Neural Networks,Cora,0.8,56.7
+Fully Hyperbolic Neural Networks,Citeseer,0.8,53.0

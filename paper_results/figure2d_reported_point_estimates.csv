@@ -1,0 +1,8 @@
+configuration,reported_accuracy_percent,source
+CLhypformer,90.65,author workbook
+HHC+EK,89.13,author workbook
+HHC+RW,88.94,author workbook
+EHC+HK,87.31,author workbook
+EHC+EK,88.66,author workbook
+EHC+RW,88.79,author workbook
+CLhypformer-no-CL,89.16,manuscript
