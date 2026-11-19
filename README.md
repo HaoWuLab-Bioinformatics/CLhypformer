@@ -14,4 +14,4 @@ Find the paper tables and figures in `runs/run.*/paper_results/`.
 
 To check setup with shorter runs, use `bash run_all.sh --smoke`.
 
-If you want to view the experimental results faster, please check paper_results/.
+If you want to view the experimental results faster, please check `paper_results/`.
